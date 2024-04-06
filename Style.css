@@ -19,7 +19,7 @@
 }
 
 .logo {
-    background-image: url("amazon\ logo.webp");
+    background-image: url("amazon.jpg");
     background-size: cover;
     height: 50px;
     width: 100px;
@@ -30,6 +30,10 @@
 }
 
 .border:hover {
+    border: 1.5px solid white;
+}
+
+.nav-address:hover {
     border: 1.5px solid white;
 }
 
@@ -103,6 +107,10 @@ span{
     font-weight: 700;
 }
 
+.nav-singin:hover {
+    border: 1.5px solid white;
+}
+
 /** box5 **/
 .nav-cart i {
     font-size: 30px;
@@ -111,6 +119,10 @@ span{
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+.nav-cart:hover {
+    border: 1.5px solid white;
 }
 
 /** panel **/
@@ -123,6 +135,11 @@ span{
     justify-content: space-evenly;
 }
 
+
+.panel-all:hover {
+    border: 1.5px solid white;
+}
+
 .panel-ops p {
     display: inline;
     margin-left: 15px;
@@ -133,14 +150,22 @@ span{
     font-size: 0.85rem;
 }
 
+.panel-ops p:hover {
+    border: 1.5px solid white;
+}
+
 .panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
 }
 
+.panel-deals:hover {
+    border: 1.5px solid white;
+}
+
 /** hero-section **/
 .hero-section {
-    background-image: url("hero.jpg");
+    background-image: url("hero_image.jpg");
     background-size: cover;
     height: 340px;
     display: flex;
@@ -188,13 +213,13 @@ span{
     margin-bottom: 1rem;
 }
 
-.box-content {
-    margin-left: 1rem;
-    margin-right: 1rem;
+.box p {
+    color: #007185;
 }
 
-.box-content p:hover{
-    color: orange;
+.box p:hover {
+    color: brown;
+    text-decoration: underline;
 }
 
 /** footer **/
@@ -214,6 +239,7 @@ footer {
     font-size: 0.85rem
 }
 
+
 .foot-panel2 {
     background-color: #222f3e;
     color: white;
@@ -231,6 +257,11 @@ ul a {
     font-size: 0.85;
     margin-top: 10px;
     color: #dddddd;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
 }
 
 .foot-panel3 {
@@ -243,12 +274,6 @@ ul a {
     align-items: center;
 }
 
-.logo {
-    background-image: url("amazon\ logo.webp");
-    background-size: cover;
-    height: 50px;
-    width: 100px;
-}
 
 .foot-panel4 {
     background-color: #0f1111;
